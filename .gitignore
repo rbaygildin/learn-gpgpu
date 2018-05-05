@@ -3,3 +3,5 @@ target/
 out/
 .DSStore
 .DS_Store
+.idea/
+cmake-build-debug
