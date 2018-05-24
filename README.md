@@ -40,4 +40,6 @@ This is a curated list of of examples of using GPU in general-purpose computings
 
 ## Other awesome lists and repositories
 
-* [Awesome CUDA by Erkaman](https://github.com/Erkaman/Awesome-CUDA) is a list of useful libraries and resources for CUDA development.
+* [Awesome CUDA by Erkaman](https://github.com/Erkaman/Awesome-CUDA) is a list of useful libraries and resources for CUDA development
+
+* [CUDA Awesome by gmarciani](https://github.com/gmarciani/cudawesome) is a collection of awesome algorithms, implemented in CUDA
