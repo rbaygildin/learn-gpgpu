@@ -34,3 +34,4 @@ This is a curated list of of examples of using GPU in general-purpose computings
 
 [OpenACC](https://www.openacc.org/)
 
+[Hemi](http://harrism.github.io/hemi/)
