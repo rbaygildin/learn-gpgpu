@@ -23,7 +23,7 @@ This is a curated list of of examples of using GPU in general-purpose computings
 
 * [K Means clustering](https://github.com/rbaygildin/awesome-gpgpu/blob/master/kmeans2/cuda_kmeans.cu) - Fast Floyd K Means on GPU. Shared memory and two-step reduction (partial and global) are used to implement finding cluster centers [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/kmeans2/cuda_kmeans.cu)]
 
-* [Fuzzy C Means clustering](https://github.com/rbaygildin/awesome-gpgpu/blob/master/fcm/fcm.cu) - Fuzzy C Means. Shared memory and two-step reduction (partial and global) are used to implement finding cluster centers [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/fcm/fcm.cu)]
+* [Fuzzy C Means clustering](https://github.com/rbaygildin/awesome-gpgpu/blob/master/fcm/cuda_fcm.cu) - Fuzzy C Means. Shared memory and two-step reduction (partial and global) are used to implement finding cluster centers [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/fcm/cuda_fcm.cu)]
 
 #### Simulation
 
