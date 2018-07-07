@@ -5,17 +5,33 @@ This is a curated list of of examples of using GPU in general-purpose computings
 
 ### CUDA
 
+<<<<<<< HEAD
 * [Vector addition](https://github.com/rbaygildin/awesome-gpgpu/tree/master/vectorAdd) - Simplest fast one-dimensional vectors addition
+=======
+#### Linear algebra
+>>>>>>> 4286c00b8f22b19920348b593325d3013b1557f2
 
-* [Sum of elements in an array](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sumArray/sum.cu) - Parallel sum of elements in an array
+* [Vector addition](https://github.com/rbaygildin/awesome-gpgpu/tree/master/vectorAdd) - Simplest fast one-dimensional vectors addition [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/tree/master/vectorAdd)]
 
-* [2D convolution](https://github.com/rbaygildin/awesome-gpgpu/blob/master/convolution/convolve2D.cu) - Naïve implementation of 2D convolution 
+* [Sum of elements in an array](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sumArray) - Parallel sum of elements in an array [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sumArray/sum.cu)]
 
-* [Median filter](https://github.com/rbaygildin/awesome-gpgpu/tree/master/medianFilter) - Median filter with arbitrary size kernel
+#### Image processing
 
-* [Sobel edge-detection filter](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sobel/sobel.cu) - Parallel implementation of Sobel Operator which is used in image processing
+* [2D convolution](https://github.com/rbaygildin/awesome-gpgpu/blob/master/convolution) - Naïve implementation of 2D convolution [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/convolution/convolve2D.cu)]
 
-* [K Means clustering](https://github.com/rbaygildin/awesome-gpgpu/blob/master/kmeans/cuda_kmeans.cu) - Fast Floyd K Means on GPU. Shared memory and two-step reduction (partial and global) are used to implement finding cluster centers
+* [Median filter](https://github.com/rbaygildin/awesome-gpgpu/tree/master/medianFilter) - Median filter with arbitrary size kernel [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/tree/master/medianFilter)]
+
+* [Sobel edge-detection filter](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sobel/sobel.cu) - Parallel implementation of Sobel Operator which is used in image processing [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sobel/sobel.cu)] 
+
+#### Clustering
+
+* [K Means clustering](https://github.com/rbaygildin/awesome-gpgpu/blob/master/kmeans2/cuda_kmeans.cu) - Fast Floyd K Means on GPU. Shared memory and two-step reduction (partial and global) are used to implement finding cluster centers [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/kmeans2/cuda_kmeans.cu)]
+
+* [Fuzzy C Means clustering](https://github.com/rbaygildin/awesome-gpgpu/blob/master/fcm/cuda_fcm.cu) - Fuzzy C Means. Shared memory and two-step reduction (partial and global) are used to implement finding cluster centers [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/fcm/cuda_fcm.cu)]
+
+#### Simulation
+
+* [Calculating PI with Monte Carlo method](https://github.com/rbaygildin/awesome-gpgpu/blob/master/monteCarloPi) - Find PI with Monte Carlo method [[CPU](https://github.com/rbaygildin/awesome-gpgpu/blob/master/monteCarloPi/cpu) | [CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/monteCarloPi/cuda)]
 
 * [cuBlas SAXPY](https://github.com/rbaygildin/awesome-gpgpu/blob/master/saxpy/saxpy.cu) - Implementation of SAXPY with cuBlas
 
