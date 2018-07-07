@@ -4,4 +4,5 @@ out/
 .DSStore
 .DS_Store
 .idea/
+.vscode
 cmake-build-debug
