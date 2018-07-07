@@ -5,15 +5,13 @@ This is a curated list of of examples of using GPU in general-purpose computings
 
 ### CUDA
 
-<<<<<<< HEAD
-* [Vector addition](https://github.com/rbaygildin/awesome-gpgpu/tree/master/vectorAdd) - Simplest fast one-dimensional vectors addition
-=======
 #### Linear algebra
->>>>>>> 4286c00b8f22b19920348b593325d3013b1557f2
 
 * [Vector addition](https://github.com/rbaygildin/awesome-gpgpu/tree/master/vectorAdd) - Simplest fast one-dimensional vectors addition [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/tree/master/vectorAdd)]
 
 * [Sum of elements in an array](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sumArray) - Parallel sum of elements in an array [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sumArray/sum.cu)]
+
+* [cuBlas SAXPY](https://github.com/rbaygildin/awesome-gpgpu/blob/master/saxpy/saxpy.cu) - Implementation of SAXPY with cuBlas [[CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/saxpy/saxpy.cu)]
 
 #### Image processing
 
@@ -32,8 +30,6 @@ This is a curated list of of examples of using GPU in general-purpose computings
 #### Simulation
 
 * [Calculating PI with Monte Carlo method](https://github.com/rbaygildin/awesome-gpgpu/blob/master/monteCarloPi) - Find PI with Monte Carlo method [[CPU](https://github.com/rbaygildin/awesome-gpgpu/blob/master/monteCarloPi/cpu) | [CUDA](https://github.com/rbaygildin/awesome-gpgpu/blob/master/monteCarloPi/cuda)]
-
-* [cuBlas SAXPY](https://github.com/rbaygildin/awesome-gpgpu/blob/master/saxpy/saxpy.cu) - Implementation of SAXPY with cuBlas
 
 ## Libraries
 
