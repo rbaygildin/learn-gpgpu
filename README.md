@@ -5,7 +5,7 @@ This is a curated list of of examples of using GPU in general-purpose computings
 
 ### CUDA
 
-* [Vector addition](https://github.com/rbaygildin/awesome-gpgpu/tree/master/vectorAdd) - Simplest fast one-dimensional vectors addition 
+* [Vector addition](https://github.com/rbaygildin/awesome-gpgpu/tree/master/vectorAdd) - Simplest fast one-dimensional vectors addition
 
 * [Sum of elements in an array](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sumArray/sum.cu) - Parallel sum of elements in an array
 
@@ -16,6 +16,8 @@ This is a curated list of of examples of using GPU in general-purpose computings
 * [Sobel edge-detection filter](https://github.com/rbaygildin/awesome-gpgpu/blob/master/sobel/sobel.cu) - Parallel implementation of Sobel Operator which is used in image processing
 
 * [K Means clustering](https://github.com/rbaygildin/awesome-gpgpu/blob/master/kmeans/cuda_kmeans.cu) - Fast Floyd K Means on GPU. Shared memory and two-step reduction (partial and global) are used to implement finding cluster centers
+
+* [cuBlas SAXPY](https://github.com/rbaygildin/awesome-gpgpu/blob/master/saxpy/saxpy.cu) - Implementation of SAXPY with cuBlas
 
 ## Libraries
 
